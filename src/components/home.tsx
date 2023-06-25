@@ -137,6 +137,60 @@ const RatingText_Proposal = styled.p `
     font-weight: 600;
 `
 
+/*FOOTER*/
+
+const Footer = styled.footer `
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+`
+
+const Slogan_Footer = styled.p `
+  color: #A8BAC7;
+  font-size: 1em;
+  margin: 8px;
+`
+const Links_Footer = styled.div `
+    display: flex;
+    flex-direction: column;
+`
+const PrincipalsLinks_Footer = styled.p `
+
+`
+const Link_Footer = styled.a `
+  margin-bottom: 12px;
+  color: #A8BAC7;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    color: black;
+  }
+`
+
+const Cases_Footer = styled.div `
+  display: flex;
+  flex-direction: column;
+
+`
+const TitleCase_Footer = styled.p `
+
+
+`
+
+const Materials_Footer = styled.div `
+  display: flex;
+  flex-direction: column;
+`
+
+
+const TitleMaterials_Footer = styled.p `
+
+
+`
+
 const Div = styled.div `
 
   height: 45vh;
@@ -146,7 +200,10 @@ const Div = styled.div `
 
 
 
+
+
 export { Header, Logo, Branding, H1, H2, ButtonHeader, BorderBranding, TextPromise, StyleH1, IconHeader, 
           Proposal, CTA_Proposal, Question_CTA_Proposal, Text_Proposal, Border_Proposal, ButtonSet_Proposal, Button_Proposal, 
-          ObjectionBreak, NoCardText_Proposal, Bar_Proposal, RatingText_Proposal, Div 
+          ObjectionBreak, NoCardText_Proposal, Bar_Proposal, RatingText_Proposal, Footer, Slogan_Footer, Links_Footer, PrincipalsLinks_Footer,
+          Link_Footer, Cases_Footer, TitleCase_Footer, Materials_Footer, TitleMaterials_Footer, Div 
 }

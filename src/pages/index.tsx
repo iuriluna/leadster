@@ -20,7 +20,15 @@ import {
   NoCardText_Proposal,
   Bar_Proposal,
   RatingText_Proposal,
-
+  Footer,
+  Slogan_Footer,
+  Links_Footer,
+  PrincipalsLinks_Footer,
+  Link_Footer,
+  Cases_Footer,
+  TitleCase_Footer,
+  Materials_Footer,
+  TitleMaterials_Footer,
   Div
 } from '../components/home'
 
@@ -33,6 +41,7 @@ import Comparative from '../assets/comparativo_img_CTA.png'
 import RdStation from '../assets/selo_RD.png'
 import NoCard from '../assets/no-card-dark.webp'
 import RatingImage from '../assets/rating.webp'
+import LogoGif from '../assets/leadster_270.gif'
 
 
 
@@ -105,6 +114,96 @@ export default function Home() {
               </ObjectionBreak>
             </CTA_Proposal>
         </Proposal>
+
+
+        <Footer>
+        <Image 
+              src={LogoGif} 
+              width='194px'
+              height='42px'
+              alt='logo leadster gif'
+          />
+          <Slogan_Footer>Transformando visitantes em clientes.</Slogan_Footer>
+
+          <Links_Footer>
+            <PrincipalsLinks_Footer>
+              Links Principais
+            </PrincipalsLinks_Footer>
+
+            <Link_Footer>
+              Home
+            </Link_Footer>
+
+            <Link_Footer>
+              Ferramenta
+            </Link_Footer>
+
+            <Link_Footer>
+              Preços
+            </Link_Footer>
+
+            <Link_Footer>
+              Contato
+            </Link_Footer>
+
+          </Links_Footer>
+
+
+          <Cases_Footer>
+
+          <TitleCase_Footer>
+            Cases
+          </TitleCase_Footer>
+
+          <Link_Footer>
+              Geração de Leads B2B
+            </Link_Footer>
+
+            <Link_Footer>
+              Geração de Leads em Software
+            </Link_Footer>
+
+            <Link_Footer>
+              Geração de Leads em Imobiliária
+            </Link_Footer>
+
+            <Link_Footer>
+              Cases de Sucesso
+            </Link_Footer>
+
+          </Cases_Footer>
+
+          <Materials_Footer>
+            <TitleMaterials_Footer>
+              Materiais
+            </TitleMaterials_Footer>
+
+            <Link_Footer>
+              Blog
+            </Link_Footer>
+
+            <Link_Footer>
+              Parceria com Agências
+            </Link_Footer>
+
+            <Link_Footer>
+              Guia Definitivo do Marketing
+            </Link_Footer>
+
+            <Link_Footer>
+              Materiais Gratuitos
+            </Link_Footer>
+
+          </Materials_Footer>
+
+
+          <TitleSocialMedia_Footer>
+            Siga a Leadster
+          </TitleSocialMedia_Footer>
+
+          
+
+        </Footer>
     </>
   )
 }
