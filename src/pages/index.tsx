@@ -43,6 +43,10 @@ import NoCard from '../assets/no-card-dark.webp'
 import RatingImage from '../assets/rating.webp'
 import LogoGif from '../assets/leadster_270.gif'
 
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 
 export default function Home() {
@@ -194,12 +198,20 @@ export default function Home() {
               Materiais Gratuitos
             </Link_Footer>
 
+            <TitleSocialMedia_Footer>
+            Siga a Leadster
+            </TitleSocialMedia_Footer>
+            
+            <FacebookIcon/>
+            <LinkedInIcon/>
+            <InstagramIcon/>
+
           </Materials_Footer>
 
 
-          <TitleSocialMedia_Footer>
-            Siga a Leadster
-          </TitleSocialMedia_Footer>
+          
+            
+
 
           
 
