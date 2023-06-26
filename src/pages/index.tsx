@@ -108,8 +108,8 @@ export default function Home() {
               <ButtonSet_Proposal>
                 <Button_Proposal>VER DEMONSTRAÇÃO</Button_Proposal>
                 <Image src={RdStation} 
-                width='180px'
-                height='64px'
+                width={185}
+                height={55}
                 alt='RD Station' />
               </ButtonSet_Proposal>
 

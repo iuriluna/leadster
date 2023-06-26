@@ -111,8 +111,18 @@ const Button_Proposal = styled.button `
     font-weight: 700;
     border-radius: 40px;
     border: none;
-    width: 186px;
-    height: 63px;
+    width: 205px;
+    height: 56px;
+    cursor: pointer;
+    transition: all .4s linear;
+
+    &:hover {
+    color: #007dff;
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #1857c1;
+    
+    }
 `
 
 const ObjectionBreak = styled.div`
