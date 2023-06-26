@@ -14,8 +14,6 @@ import {
 } from '../components/home'
 
 
-
-
 /*Images*/
 import LogoImage from '../assets/logo.png'
 import IconHeader from '../assets/asset-header.png'
@@ -23,13 +21,14 @@ import IconHeader from '../assets/asset-header.png'
 /* Components*/
 import Proposal from '../components/proposal'
 import Footer from '../components/footer'
+/*import Cards from '../components/card-video'*/
 
 
 
 
 export default function Home() {
   return (
-    <>
+      <>
         <Header>
           <Image 
               src={LogoImage} 
@@ -52,6 +51,8 @@ export default function Home() {
         </Header>
 
         <Div></Div>
+
+        
 
         <Proposal/>
 
