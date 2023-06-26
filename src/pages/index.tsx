@@ -67,8 +67,8 @@ export default function Home() {
         <Header>
           <Image 
               src={LogoImage} 
-              width='194px'
-              height='42px'
+              width={194}
+              height={42}
               alt='logo leadster' 
           />
           <Branding>
@@ -76,8 +76,8 @@ export default function Home() {
             <H2>Menos Conversinha,</H2>
             <StyleH1>
               <H1>Mais Conversão</H1> <Image src={IconHeader} 
-              width='49px'
-              height='32px'
+              width={40}
+              height={25}
               alt='icon header' />
             </StyleH1>
             <BorderBranding></BorderBranding>
@@ -115,14 +115,13 @@ export default function Home() {
 
               <ObjectionBreak>
                 <Image src={NoCard} 
-                width='16px'
-                height='16px'
+                width={16}
+                height={16}
                 alt='No-card' />
                 <NoCardText_Proposal><strong>Não</strong> é necessário Cartão de Crédito</NoCardText_Proposal>
                 <Bar_Proposal></Bar_Proposal>
                 <Image src={RatingImage} 
-                width='92px'
-                height='16px'
+                width={16}
                 alt='Rating' />
                 <RatingText_Proposal>
                   4.9/5 média de satisfação
@@ -135,8 +134,8 @@ export default function Home() {
         <Footer>
           <Image 
               src={LogoGif} 
-              width='194px'
-              height='42px'
+              width={194}
+              height={42}
               alt='logo leadster gif'
           />
           <Slogan_Footer>Transformando visitantes em clientes.</Slogan_Footer>

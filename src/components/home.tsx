@@ -8,8 +8,7 @@ const Header = styled.header `
   flex-direction: column;
 `
 const Logo = styled.img `
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin: 7px 0 10px;
 `
 
 const Branding = styled.section `
@@ -25,8 +24,8 @@ const Branding = styled.section `
 
 const H1 = styled.h1 `
   color: #007dff;
-  font-size: 4em;
-  margin: 0px;
+  font-size: 4.3em;
+  margin: -16px;
 
 `
 
@@ -49,7 +48,7 @@ const ButtonHeader = styled.button `
 
 const BorderBranding = styled.div `
   border-bottom: 1px solid #dee5eb;
-  width: 32%;
+  width: 36%;
 `
 
 const TextPromise = styled.p `
