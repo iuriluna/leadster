@@ -1,4 +1,6 @@
-import {Menu, Nav, Options_Nav, TextOrdenation_Nav} from '../styles/nav-bar'
+import {Menu, Nav, Options_Nav, OrdeNationVideos_Nav, TextOrdenation_Nav} from '../styles/nav-bar'
+
+import SelectSmall from '../components/select'
 
 
 
@@ -28,10 +30,13 @@ export default function NavBar() {
                     </Options_Nav>
                 </Nav>
 
-                <TextOrdenation_Nav>
-                    Ordenar por:
-                </TextOrdenation_Nav>
+                    <OrdeNationVideos_Nav>
+                        <TextOrdenation_Nav>
+                            Ordenar por:
+                        </TextOrdenation_Nav>
 
+                        <SelectSmall/>
+                    </OrdeNationVideos_Nav>
 
             </Menu>
         </>

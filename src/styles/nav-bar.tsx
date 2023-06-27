@@ -5,7 +5,9 @@ import styled from 'styled-components'
 const Menu = styled.section`
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
+    height: 15vh;
 `
 
 const Nav = styled.nav`
@@ -38,10 +40,19 @@ const Options_Nav = styled.button`
     }
 `
 
+const OrdeNationVideos_Nav = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+`
+
 const TextOrdenation_Nav = styled.p`
     margin: 0;
     font-size: 0.9em;
 `
 
 
-export {Menu, Nav, Options_Nav, TextOrdenation_Nav}
+
+
+export {Menu, Nav, Options_Nav, OrdeNationVideos_Nav, TextOrdenation_Nav}
