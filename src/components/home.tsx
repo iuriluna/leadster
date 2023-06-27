@@ -7,9 +7,6 @@ const Header = styled.header `
   align-items: center;
   flex-direction: column;
 `
-const Logo = styled.img `
-  margin: 7px 0 10px;
-`
 
 const Branding = styled.section `
   height: 45vh;
@@ -20,6 +17,8 @@ const Branding = styled.section `
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  margin-top: 20px;
 `
 
 const H1 = styled.h1 `
@@ -82,5 +81,5 @@ const Div = styled.div `
 
 
 
-export { Header, Logo, Branding, H1, H2, ButtonHeader, BorderBranding, TextPromise, StyleH1, IconHeader, Div 
+export { Header, Branding, H1, H2, ButtonHeader, BorderBranding, TextPromise, StyleH1, IconHeader, Div 
 }

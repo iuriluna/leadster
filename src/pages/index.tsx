@@ -36,7 +36,8 @@ export default function Home() {
               src={LogoImage} 
               width={194}
               height={42}
-              alt='logo leadster' 
+              alt='logo leadster'
+              style={{marginTop: 5}}
           />
           <Branding>
             <ButtonHeader>WEBINARS EXCLUSIVOS</ButtonHeader>

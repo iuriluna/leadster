@@ -8,6 +8,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
+import PaginationRounded from '../components/pagination'
 
 import Thumbnail from '../assets/thumbnail.png'
 
@@ -169,6 +170,12 @@ export default function ActionAreaCard() {
         </Card>
 
       </CardsVideo>
+
+      <BoxBorder_CardVideo>
+        <Border_CardVideo style={{marginTop: 27}} ></Border_CardVideo>
+      </BoxBorder_CardVideo>
+
+      <PaginationRounded/>
     </>
   );
 }
