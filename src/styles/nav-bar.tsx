@@ -4,8 +4,10 @@ import styled from 'styled-components'
 
 const Menu = styled.section`
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
+    gap: 61px;
+    
     width: 100%;
     height: 15vh;
 `
