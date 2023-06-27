@@ -7,9 +7,9 @@ const Menu = styled.section`
     align-items: center;
     justify-content: center;
     gap: 61px;
-    
+
     width: 100%;
-    height: 15vh;
+    height: 10vh;
 `
 
 const Nav = styled.nav`
