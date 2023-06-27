@@ -20,6 +20,7 @@ import IconHeader from '../assets/asset-header.png'
 
 /* Components*/
 import NavBar from '../components/nav-bar'
+import ActionAreaCard from '../components/card-video'
 import Proposal from '../components/proposal'
 import Footer from '../components/footer'
 /*import Cards from '../components/card-video'*/
@@ -52,6 +53,8 @@ export default function Home() {
         </Header>
 
         <NavBar/>
+
+        <ActionAreaCard/>
 
         <Proposal/>
 
